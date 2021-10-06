@@ -25,7 +25,7 @@ const returnScreen = (screen)=>{
           return <VideoScreen />
       
         default:
-          return <MenuScreen />;
+          return <MenuScreen />
       }          
 }
 

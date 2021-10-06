@@ -3,7 +3,6 @@ import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import MenuScreen from './components/MenuScreen';
 import returnScreen from './helpers/returnScreen'
 
-
 export default function App() {
 
   const [screen, setScreen] = useState("Menu");

@@ -15,7 +15,7 @@ export const TraductorScreen = () => {
 
         const numberTranslated = ConvertNumbers(number);
         numberTranslated.error != undefined ?
-            alert(numberTranslated.message) : alert(`La traduccion del numero digitado es: ${numberTranslated}`);
+        alert(numberTranslated.message) : alert(`La traduccion del numero digitado es: ${numberTranslated}`);
     }
 
     return (
@@ -26,7 +26,6 @@ export const TraductorScreen = () => {
             </Text>
 
             <View>
-
                 <TextInput
                     keyboardType='numeric'
                     placeholder='Digite el numero a traducir'
