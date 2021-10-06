@@ -22,8 +22,8 @@ const InicialScreen = () => {
 
 const styles = StyleSheet.create({
     image: {
-        width: 300,
-        height: 300,
+        width: 100,
+        height: 100,
         marginRight: 60,
         marginLeft: 60,
         marginTop: 30,
